@@ -1,0 +1,13 @@
+Data availability and reproducibility statement
+
+The supplementary materials include the master dataset, data dictionary, original indicator workbooks, validation files, figure source data, and an analysis script. Figure 3, Figure 5, and Figure 6 can be reproduced from the CSV files in S5_figure_source_data_and_analysis_script. The script rerun_multidimensional_diagnosis.py reproduces the key z-score matrix, Ward clustering input, regime assignments, and regime profile table.
+
+Recommended repository structure for submission:
+- S1: Master dataset and variable dictionary.
+- S2: TomTom FCD traffic-performance indicators.
+- S3: OSM road-network indicators and recalibration validation.
+- S4: Population-vehicle background proxy and raw selected parquet/CSV files.
+- S5: Figure source data and reproducibility script.
+- S6: Validation summaries and formula/method notes.
+
+The TomTom indicators are treated as platform-based FCD benchmarks, not ground-truth traffic counts. Population and vehicle variables are state-level background proxies, not city-level demand counts. OSM indicators are interpreted as contextual road-network variables.
